@@ -31,7 +31,7 @@ def Make_Line_Chart(df, x, y):
 #6) - Use Amazon Airflow DAG to automate daily ingestion + loading into Postgres
 
 #7) - FUNCTION EXECUTION
-df = pd.read_csv('/Users/macowner/PycharmProjects/Covid_pipeline/data/covid_data')
+df = pd.read_csv('Covid_pipeline/data/covid_data')
 df['Date_reported'] = pd.to_datetime(df['Date_reported'])
 df['Month_year'] = df['Date_reported'].dt.to_period('M').dt.to_timestamp()
 
@@ -95,4 +95,4 @@ st.line_chart(df_line, x = df_line.columns[0], y = df_line.columns[1])
 
 
 
-# streamlit run '/Users/macowner/Library/Application Support/JetBrains/PyCharmCE2023.1/scratches/dashboard_creation.py'
+# streamlit run '/Users/macowner/PycharmProjects/Covid_pipeline/scripts/streamlit_app.py'
