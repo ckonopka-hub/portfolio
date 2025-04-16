@@ -3,5 +3,4 @@ numpy
 streamlit
 altair
 plotly
-csv
 requests
