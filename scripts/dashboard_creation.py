@@ -31,7 +31,7 @@ def Make_Line_Chart(df, x, y):
 #6) - Use Amazon Airflow DAG to automate daily ingestion + loading into Postgres
 
 #7) - FUNCTION EXECUTION
-df = pd.read_csv('/covid_data')
+df = pd.read_csv('/Users/macowner/PycharmProjects/Covid_pipeline/data/covid_data')
 df['Date_reported'] = pd.to_datetime(df['Date_reported'])
 df['Month_year'] = df['Date_reported'].dt.to_period('M').dt.to_timestamp()
 
