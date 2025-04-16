@@ -2,6 +2,6 @@ pandas
 numpy
 streamlit
 altair
-plotly.express
+plotly
 csv
 requests
