@@ -4,7 +4,7 @@ This project is a cleaned demo of a project I now use at work! I conduct regular
 Disclaimer: Nothing in the code, data, or formatting contains iCapital intellectual property.
 
 # How It's Made:
-Tech used: Python
+### Tech used: Python
 
 I was first reporting using a manual Word document template, which was very repetitive and time consuming. Excel could be used for its filtering, pivot tables, and charts, but I wanted something faster and scalable. I've been practicing with Python on small projects, and decided to request access to my company's licensed version of Pycharm! The actual report is more comprehensive, but it's beautiful how Python can be used to make completely custom reporting tools. I plan to make an automatically exported, packaged Streamlit dashboard next!
 
