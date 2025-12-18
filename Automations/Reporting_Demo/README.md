@@ -9,6 +9,6 @@ Tech used: Python
 I was first reporting using a manual Word document template, which was very repetitive and time consuming. Excel could be used for its filtering, pivot tables, and charts, but I wanted something faster and scalable. I've been practicing with Python on small projects, and decided to request access to my company's licensed version of Pycharm! The actual report is more comprehensive, but it's beautiful how Python can be used to make completely custom reporting tools. I plan to make an automatically exported, packaged Streamlit dashboard next!
 
 
-Lessons Learned:
+# Lessons Learned:
 
 Even without developer priveleges, codebase access, or a computer science degree, you can learn, grow, and make something useful for yourself and others. And to do that, it's important to understand your systems/data, and understand where information is lacking (for analyis projects). It was amazing to get all this running and share it with my coworkers! The visualizations made a huge difference in creating shared understanding.
