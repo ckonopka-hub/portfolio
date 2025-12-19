@@ -12,3 +12,5 @@ I was first reporting using a manual Word document template, which was very repe
 # Lessons Learned:
 
 Even without developer priveleges, codebase access, or a computer science degree, you can learn, grow, and make something useful for yourself and others. And to do that, it's important to understand your systems/data, and understand where information is lacking (for analyis projects). It was amazing to get all this running and share it with my coworkers! The visualizations made a huge difference in creating shared understanding.
+
+If you read all this, thank you so much for your time and have a wonderful day!
