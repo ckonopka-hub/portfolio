@@ -1,7 +1,0 @@
-pandas
-numpy
-streamlit
-altair
-plotly.express
-csv
-requests
