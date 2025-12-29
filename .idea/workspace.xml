@@ -5,27 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d61ed205-ee9d-49d0-b0b0-178e3a9f3f06" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/gui_project/class_files/CustomJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/gui_project/class_files/CustomJFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui_project/class_files/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/gui_project/class_files/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui_project/main_file/Project4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/gui_project/main_file/Project4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/speed_sensor_project/data/Speed_Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/speed_sensor_project/data/Speed_Data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/speed_sensor_project/data/Speed_Data_Date_Error.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/speed_sensor_project/data/Speed_Data_Date_Error.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/speed_sensor_project/data/Speed_Data_Difference.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/speed_sensor_project/data/Speed_Data_Difference.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/speed_sensor_project/data/Speed_Data_Num_Error.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/speed_sensor_project/data/Speed_Data_Num_Error.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/speed_sensor_project/main_file/Project2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/speed_sensor_project/main_file/Project2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/FileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/Printable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/Printable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/Tier2Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/Tier2Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/WorkOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/WorkOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/data/employee_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/data/employee_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/data/tier1_ticket_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/data/tier1_ticket_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/data/tier2_ticket_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/data/tier2_ticket_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/data/workorder_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/data/workorder_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_tickets_project/main_file/Project3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/main_file/Project3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automations/Reporting_Demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Projects/Reporting_Demo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automations/Reporting_Demo/monday_reporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Projects/Reporting_Demo/monday_reporting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automations/Reporting_Demo/tech_tickets_with_issues.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Projects/Reporting_Demo/tech_tickets_with_issues.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automations/Reporting_Demo/tickets_and_clients_by_status.png" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Projects/Reporting_Demo/tickets_and_clients_by_status.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Covid_pipeline/streamlit_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Covid_pipeline/streamlit_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial-data-analysis-with-python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Projects/financial-data-analysis-with-python.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitbit-case-study.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/R_Projects/fitbit-case-study.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -43,29 +30,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.browser_automation.executor": "Run",
-    "Python.database_operation.executor": "Run",
-    "Python.streamlit_app.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/macowner/Documents/Career/portfolio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.browser_automation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.database_operation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.streamlit_app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macowner/Documents/Career/portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
