@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d61ed205-ee9d-49d0-b0b0-178e3a9f3f06" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_project/class_files/CustomJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/gui_project/class_files/CustomJFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_project/class_files/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/gui_project/class_files/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_project/main_file/Project4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/gui_project/main_file/Project4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speed_sensor_project/data/Speed_Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/speed_sensor_project/data/Speed_Data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speed_sensor_project/data/Speed_Data_Date_Error.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/speed_sensor_project/data/Speed_Data_Date_Error.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speed_sensor_project/data/Speed_Data_Difference.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/speed_sensor_project/data/Speed_Data_Difference.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speed_sensor_project/data/Speed_Data_Num_Error.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/speed_sensor_project/data/Speed_Data_Num_Error.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speed_sensor_project/main_file/Project2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/speed_sensor_project/main_file/Project2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/Printable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/Printable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/Tier2Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/Tier2Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/class_files/WorkOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/class_files/WorkOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/data/employee_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/data/employee_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/data/tier1_ticket_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/data/tier1_ticket_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/data/tier2_ticket_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/data/tier2_ticket_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/data/workorder_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/data/workorder_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_tickets_project/main_file/Project3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Projects/work_tickets_project/main_file/Project3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +33,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Covid_pipeline" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2stQ8KIc0mk0NgDFPRoYWiZAhdp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +50,7 @@
     "Python.database_operation.executor": "Run",
     "Python.streamlit_app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/macowner/Documents/Career/portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -49,7 +69,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.122" />
         <option value="bundled-python-sdk-880ecab49056-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.122" />
       </set>
     </attachedChunks>
