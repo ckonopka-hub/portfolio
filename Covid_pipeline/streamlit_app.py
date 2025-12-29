@@ -3,7 +3,6 @@ import streamlit as st
 import altair as alt
 import plotly.express as px
 
-#5) - Make simple dashboard with Streamlit + host on Streamlit Cloud
 #   - - Streamlit documentation: https://docs.streamlit.io/
 def Dashboard_Config():
     st.set_page_config(
@@ -28,9 +27,7 @@ def Make_Line_Chart(df, x, y):
     st.line_chart(df, x, y)
 
 
-#6) - Use Amazon Airflow DAG to automate daily ingestion + loading into Postgres
-
-#7) - FUNCTION EXECUTION
+#- FUNCTION EXECUTION
 df = pd.read_csv('Covid_pipeline/data/covid_data')
 df['Date_reported'] = pd.to_datetime(df['Date_reported'])
 df['Month_year'] = df['Date_reported'].dt.to_period('M').dt.to_timestamp()
