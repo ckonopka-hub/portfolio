@@ -92,4 +92,4 @@ st.line_chart(df_line, x = df_line.columns[0], y = df_line.columns[1])
 
 
 
-# streamlit run '/Users/macowner/Library/Application Support/JetBrains/PyCharmCE2023.1/scratches/dashboard_creation.py'
+# streamlit run '/Users/macowner/PycharmProjects/Covid_pipeline/scripts/streamlit_app.py'

@@ -1,0 +1,31 @@
+Index: Covid_pipeline/streamlit_app.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import pandas as pd\nimport streamlit as st\nimport altair as alt\nimport plotly.express as px\n\n#5) - Make simple dashboard with Streamlit + host on Streamlit Cloud\n#   - - Streamlit documentation: https://docs.streamlit.io/\ndef Dashboard_Config():\n    st.set_page_config(\n        page_title='Covid Data Dashboard',\n        layout='wide',\n        initial_sidebar_state= 'expanded')\n\ndef Make_Choropleth(input_df, input_id, input_column, input_color_theme):\n    choropleth = px.choropleth(input_df, locations = input_id ,color = input_column, locationmode = 'country names',\n                               color_continuous_scale=input_color_theme,\n                               labels={'Cumulative_deaths':'Cumulative Deaths'})\n    choropleth.update_layout(\n        template='plotly_dark',\n        plot_bgcolor='rgba(0,0,0,0)',\n        paper_bgcolor='rgba(0,0,0,0)',\n        margin=dict(l=0,r=0,t=0,b=0),\n        height=350\n    )\n    return choropleth\n\ndef Make_Line_Chart(df, x, y):\n    st.line_chart(df, x, y)\n\n\n#6) - Use Amazon Airflow DAG to automate daily ingestion + loading into Postgres\n\n#7) - FUNCTION EXECUTION\ndf = pd.read_csv('Covid_pipeline/data/covid_data')\ndf['Date_reported'] = pd.to_datetime(df['Date_reported'])\ndf['Month_year'] = df['Date_reported'].dt.to_period('M').dt.to_timestamp()\n\nDashboard_Config()\n\nwith st.sidebar:\n    st.title('Covid Dashboard')\n\n    dropdown_dict = {\n        'Cumulative cases':'Cumulative_cases',\n        'Cumulative deaths':'Cumulative_deaths',\n        'Average rate (per month) of new cases':'avg_cases',\n        'Average rate (per month) of deaths':'avg_deaths'}\n    selected_label = st.selectbox('Select a measurement', list(dropdown_dict.keys()))\n    selected_value = dropdown_dict[selected_label]\n\n\n\n# - For cumulative deaths\ndf_choro_1 = df.groupby('Country').Cumulative_deaths.max()\ndf_line_1 = df.groupby('Date_reported').Cumulative_deaths.sum()\n\n# - For cumulative cases\ndf_choro_2 = df.groupby('Country').Cumulative_cases.max()\ndf_line_2 = df.groupby('Date_reported').Cumulative_cases.sum()\n\n# - For average rate of new cases\ndf_choro_3 = df.groupby('Country').New_cases.mean()\ndf_line_3 = df.groupby('Month_year').New_cases.sum()\n\n# - For average rate of deaths\ndf_choro_4 = df.groupby('Country').New_deaths.mean()\ndf_line_4 = df.groupby('Month_year').New_deaths.sum()\nprint(df_line_4.head(20))\n\n# - change dashboard to selected measurement dataframes\nif selected_value == 'Cumulative_cases':\n    df_choro = df_choro_1\n    df_line = df_line_1\nelif selected_value == 'Cumulative_deaths':\n    df_choro = df_choro_2\n    df_line = df_line_2\nelif selected_value == 'avg_cases':\n    df_choro = df_choro_3\n    df_line = df_line_3\nelse:\n    df_choro = df_choro_4\n    df_line = df_line_4\n\n\ndf_choro = df_choro.reset_index()\ndf_line = df_line.reset_index()\n\n\n# col = st.rows((5, 2), gap = 'medium')\n#with col[0]:\nchoropleth = Make_Choropleth(df_choro, df_choro.columns[0], df_choro.columns[1], 'Viridis')\nst.plotly_chart(choropleth, use_container_width = True)\n#with col[1]:\nst.line_chart(df_line, x = df_line.columns[0], y = df_line.columns[1])\n\n\n\n# streamlit run '/Users/macowner/Library/Application Support/JetBrains/PyCharmCE2023.1/scratches/dashboard_creation.py'\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Covid_pipeline/streamlit_app.py b/Covid_pipeline/streamlit_app.py
+--- a/Covid_pipeline/streamlit_app.py	(revision ad51c80b8fcfc76a1f0adc464d5c6450c0f8758d)
++++ b/Covid_pipeline/streamlit_app.py	(date 1767041117570)
+@@ -3,7 +3,6 @@
+ import altair as alt
+ import plotly.express as px
+ 
+-#5) - Make simple dashboard with Streamlit + host on Streamlit Cloud
+ #   - - Streamlit documentation: https://docs.streamlit.io/
+ def Dashboard_Config():
+     st.set_page_config(
+@@ -28,9 +27,7 @@
+     st.line_chart(df, x, y)
+ 
+ 
+-#6) - Use Amazon Airflow DAG to automate daily ingestion + loading into Postgres
+-
+-#7) - FUNCTION EXECUTION
++#- FUNCTION EXECUTION
+ df = pd.read_csv('Covid_pipeline/data/covid_data')
+ df['Date_reported'] = pd.to_datetime(df['Date_reported'])
+ df['Month_year'] = df['Date_reported'].dt.to_period('M').dt.to_timestamp()
+diff --git a/Covid_pipeline/data_pipeline_dag.py b/Covid_pipeline/data_pipeline_dag.py
+deleted file mode 100644
